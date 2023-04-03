@@ -1,8 +1,10 @@
+import PageContent from "../components/PageContent";
+
 function HomePage() {
   return (
-    <>
-      <h1>Home Page</h1>
-    </>
+    <PageContent title="Welcome to the Events App!">
+      <p>Browse through our events and sign up for the ones you like!</p>
+    </PageContent>
   );
 }
 
